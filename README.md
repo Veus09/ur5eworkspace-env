@@ -22,8 +22,17 @@ git lfs install
 git clone <LINK_REPO_CUA_BAN>
 cd <TEN_THU_MUC_REPO>
 
-# Để kích hoạt môi trường (chỉnh sửa lại đường dẫn nếu là conda hoặc venv tiêu chuẩn)
-source env_isaacsim6/bin/activate
-# hoặc dùng nếu là conda:
-conda activate ./env_isaacsim6
+**2. Setup the Environment**
+Repository này yêu cầu một số thư viện Python nhất định. Để tự động cài đặt môi trường ảo và các thư viện cần thiết, hãy chạy các lệnh sau trong terminal để khởi tạo:
+
+```bash
+# Tạo một môi trường ảo mới (đặt tên là env)
+python3 -m venv env
+
+# Kích hoạt môi trường ảo
+source env/bin/activate
+
+# Cài đặt toàn bộ thư viện cần thiết từ file requirements
+pip install -r requirements.txt
+
 
