@@ -6,8 +6,8 @@ Repository này chứa cấu hình môi trường (`env_isaacsim6`) và cảnh 3
 
 Trước khi tải và chạy project này, hãy đảm bảo bạn đã cài đặt các phần mềm sau:
 - [NVIDIA Omniverse Launcher](https://www.nvidia.com/en-us/omniverse/)
-- **Isaac Sim** (Phiên bản khuyến nghị: 2022.2.1 / 2023.1.1 hoặc mới hơn)
-- Git và [Git LFS](https://git-lfs.com/) (Quan trọng để tải chuẩn xác các file file `.usd` có dung lượng lớn)
+- **Isaac Sim** (6.0.1)
+- Git và [Git LFS](https://git-lfs.com/) 
 
 ## Cài đặt & Thiết lập
 
@@ -29,10 +29,10 @@ Repository này yêu cầu một số thư viện Python nhất định. Để t
 
 ```bash
 # Tạo một môi trường ảo mới (đặt tên là env)
-python3 -m venv env
+python3 -m venv env_isaacsim6
 
 # Kích hoạt môi trường ảo
-source env/bin/activate
+source env_isaacsim6/bin/activate
 
 # Cài đặt toàn bộ thư viện cần thiết từ file requirements
 pip install -r requirements.txt
