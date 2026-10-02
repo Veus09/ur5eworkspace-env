@@ -22,6 +22,8 @@ git lfs install
 git clone <LINK_REPO_CUA_BAN>
 cd <TEN_THU_MUC_REPO>
 
+```
+
 **2. Setup the Environment**
 Repository này yêu cầu một số thư viện Python nhất định. Để tự động cài đặt môi trường ảo và các thư viện cần thiết, hãy chạy các lệnh sau trong terminal để khởi tạo:
 
@@ -34,5 +36,5 @@ source env/bin/activate
 
 # Cài đặt toàn bộ thư viện cần thiết từ file requirements
 pip install -r requirements.txt
-
+```
 
